@@ -20,3 +20,221 @@
     background-color: purple;
     color: white;
 }
+.btn {
+    width: 125px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+
+    &.btn-amarelo {
+        background-color: yellow;
+        color: black;
+
+        &:hover {
+            background-color: darkorange;
+        }
+    }
+
+    &.btn-azul {
+        background-color: blue;
+        color: white;
+
+        &:hover {
+            background-color: darkblue;
+        }
+    }
+
+    &.btn-verde {
+        background-color: green;
+        color: white;
+
+        &:hover {
+            background-color: darkgreen;
+        }
+    }
+
+    &.btn-vermelho {
+        background-color: red;
+        color: white;
+
+        &:hover {
+            background-color: darkred;
+        }
+    }
+
+    &.btn-laranja {
+        background-color: orange;
+        color: black;
+
+        &:hover {
+            background-color: darkorange;
+        }
+    }
+
+    &.btn-cinza {
+        background-color: gray;
+        color: white;
+
+        &:hover {
+            background-color: darkgray;
+        }
+    }
+}
+
+.btn-roxo {
+    @extend .btn;
+    background-color: purple;
+    color: white;
+
+    &:hover {
+        background-color: indigo;
+    }
+}
+.btn {
+    width: 125px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+
+    &.btn-amarelo {
+        background-color: yellow;
+        color: black;
+
+        &:hover {
+            background-color: darkorange;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-azul {
+        background-color: blue;
+        color: white;
+
+        &:hover {
+            background-color: darkblue;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-verde {
+        background-color: green;
+        color: white;
+
+        &:hover {
+            background-color: darkgreen;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-vermelho {
+        background-color: red;
+        color: white;
+
+        &:hover {
+            background-color: darkred;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-laranja {
+        background-color: orange;
+        color: black;
+
+        &:hover {
+            background-color: darkorange;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-cinza {
+        background-color: gray;
+        color: white;
+
+        &:hover {
+            background-color: darkgray;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-roxo {
+        background-color: purple;
+        color: white;
+
+        &:hover {
+            background-color: indigo;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-rosa {
+        background-color: pink;
+        color: black;
+
+        &:hover {
+            background-color: hotpink;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-marrom {
+        background-color: brown;
+        color: white;
+
+        &:hover {
+            background-color: darkbrown;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-preto {
+        background-color: black;
+        color: white;
+
+        &:hover {
+            background-color: gray;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-branco {
+        background-color: white;
+        color: black;
+
+        &:hover {
+            background-color: lightgray;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-azul-claro {
+        background-color: lightblue;
+        color: black;
+
+        &:hover {
+            background-color: deepskyblue;
+            transform: scale(1.05);
+        }
+    }
+
+    &.btn-verde-claro {
+        background-color: lightgreen;
+        color: black;
+
+        &:hover {
+            background-color: mediumseagreen;
+            transform: scale(1.05);
+        }
+    }
+}
